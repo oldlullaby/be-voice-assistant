@@ -27,7 +27,7 @@ First of all, you need to install all necessary libraries. It can be done by the
 
 This project uses the OpenWeatherMap service to get the weather forecast data. This library requires an API key. You can get an API key and get acquainted with the documentation after registration [here](https://pyowm.readthedocs.io/en/latest/v3/code-recipes.html).
 
-You can use a pretrained TTS model and config from ```release``` path.
+You can use a pretrained TTS model and config from ```release``` path. You should to set path to the directory where your model file and config located in **TTSsynth_loader.py**
 
 # Training a TTS model:
 
